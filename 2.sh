@@ -12,3 +12,6 @@ print('Question 2')
 df.reset_index(inplace=True)
 df1=df.groupby('Dest').count().sort_values('index',ascending=False)
 print(df1[0:3]['index'])
+
+
+print('Eric')
